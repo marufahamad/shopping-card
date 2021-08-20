@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart 2</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7dd4796d68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body class=" w-3/4 m-auto mt-2">
+    <header>
+        <h1 class="text-4xl font-medium">My shopping cart</h1>
+    </header>
+    <main>
+        <section class="bg-gray-100 mt-20 lg:px-28 md:px-4 py-12 grid gap-y-8">
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 p-8 bg-white rounded-2xl">
+                <div class="grid grid-cols-4 items-center">
+                    <img class="" src="images/product-1.png" alt="">
+                    <h4 class="col-span-3 text-2xl ml-8">iPhone 11 128GB Black</h4>
+
+                </div>
+                <div class="items-cente grid grid-cols-12 content-center m-4">
+                    <button><i class="fas fa-minus"></i></button>
+                    <input class="m-auto col-span-4 lg:w-18 w-12 text-right px-2" type="text" name="" id="" value="0">
+                    <button><i class="fas fa-plus"></i></button>
+                    <h4 class="col-span-4 text-2xl text-right">$<span>1219</span></h4>
+                    <img class="col-span-2 m-auto" src="images/remove.png" alt="">
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 p-8 bg-white rounded-2xl">
+                <div class="grid grid-cols-4 items-center">
+                    <img class="" src="images/product-2.png" alt="">
+                    <h4 class="col-span-3 text-2xl ml-8">iPhone 11 Silicone Case - Black</h4>
+
+                </div>
+                <div class="items-cente grid grid-cols-12 content-center m-4">
+                    <button><i class="fas fa-minus"></i></button>
+                    <input class="m-auto col-span-4 lg:w-18 w-12 text-right px-2" type="text" name="" id="" value="0">
+                    <button><i class="fas fa-plus"></i></button>
+                    <h4 class="col-span-4 text-2xl text-right">$<span>59</span></h4>
+                    <img class="col-span-2 m-auto" src="images/remove.png" alt="">
+                </div>
+            </div>
+            <div class="grid-cols-1 p-8 bg-white rounded-2xl">
+                <div class="flex justify-between ml-0 md:ml-8 mr-0 md:mr-8 lg:mr-20">
+                    <h4 class="text-2xl ">Subtotal:</h4>
+                    <h4 class="text-2xl text-right">$<span>0</span></h4>
+                </div>
+                <div class="flex justify-between ml-0 md:ml-8 mr-0 md:mr-8 lg:mr-20">
+                    <h4 class="text-2xl ">Tax:</h4>
+                    <h4 class="text-2xl text-right">$<span>0</span></h4>
+                </div>
+                <div class="flex justify-between ml-0 md:ml-8 mr-0 md:mr-8 lg:mr-20">
+                    <h4 class="text-2xl ">Total:</h4>
+                    <h4 class="text-2xl text-right">$<span>0</span></h4>
+                </div>
+            </div>
+
+            <div class="text-right ml-0 md:ml-4 lg:ml-8">
+                <button class="bg-green-400 py-4 px-8 rounded text-white font-medium text-xl">Check Out</button>
+            </div>
+
+
+        </section>
+    </main>
+    <script src="app3.js"></script>
+</body>
+
+</html>
